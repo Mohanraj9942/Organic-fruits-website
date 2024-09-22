@@ -1,2 +1,2 @@
-# Organic-fruits-website
-java script
+# organic-fruits-website
+using Java Script
