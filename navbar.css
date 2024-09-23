@@ -145,6 +145,15 @@ color:black;
     background-attachment: fixed;
 }
 
+@media screen and (max-width:700px) {
+    .homebg {
+        background-image: linear-gradient(rgba(178, 253, 253, 0.1), rgba(178, 253, 253, 0.1)),
+            url("./img/mobhome.jpg");
+          
+    }
+    
+}
+
 .navli a {
     border-radius: 5px;
 }
@@ -494,22 +503,6 @@ color:black;
 }
 
 
-/* --------------whatsapp---- */
-/* .whatsapp {
-    z-index: 888;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(0, 178, 0);
-    border-radius: 50%;
-    font-size: 25px;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    box-shadow: 0 0 15px rgb(0, 178, 0);
-} */
 
 /* ------------mobile view------------ */
 @media screen and (max-width:460px) {

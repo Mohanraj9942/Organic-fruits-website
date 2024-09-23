@@ -301,6 +301,15 @@ align-items: center;
   z-index: 99999;
 }
 
+@media screen and (max-width:400px) {
+    .mycart{
+       
+        width:300px;
+    
+    }
+    
+}
+
 .mycart-open{
     top:0;
     right:0;
